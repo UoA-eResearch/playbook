@@ -55,6 +55,7 @@ Every repository must include a `README.md` file that provides:
 ### **Websites**
 - Host project websites using **GitHub Pages**.
 - Load libraries via **CDN** for efficient performance.
+- Setup Google Analytics using the shared UoA-eResearch account for tracking website usage. It's best to set this up *before* you need it.
 
 ### **Jupyter Notebooks**
 - Render large Jupyter notebooks to HTML and serve them with GitHub Pages.
