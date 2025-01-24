@@ -22,7 +22,7 @@ Every repository must include a `README.md` file that provides:
 4. **Example Usage**: Include a runnable example, along with any necessary data files (use Git LFS for large files).
 
 ### **Dependency Management**
-- Use a `requirements.txt` file to list all Python dependencies.
+- Use a `requirements.txt` file to list all Python dependencies. Use `uv` to install them.
 - For JavaScript projects, use `package.json`.
 
 ---
