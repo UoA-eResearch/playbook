@@ -60,6 +60,9 @@ Every repository must include a `README.md` file that provides:
 ### **Jupyter Notebooks**
 - Render large Jupyter notebooks to HTML and serve them with GitHub Pages.
 
+### **Raster tile/vector services**
+Use ArcGIS Online in preference to a NeCTAR VM
+
 ---
 
 ## **Automation and CI/CD**
