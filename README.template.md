@@ -12,7 +12,7 @@ Insert other information about research project, as necessary. For example, "It 
 
 ## Installation instructions
 
-<!-- Add step-by-step instructions that enable someone to install required system and package dependencies create a local development environment. -->
+<!-- Add step-by-step instructions that enable someone to install required system and package dependencies to create a local development environment. -->
 
 <!-- If instructions involve API keys or other sensitive information, add them to the Secret Server. Then, link to the secrets and add instructions on where to use them. If they are for an external non-UoA resource, include link to instructions on how they can obtain a new key if necessary. -->
 
