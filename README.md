@@ -47,6 +47,7 @@ Every repository must include a `README.md` file that provides:
 - Keep It Simple - your code should be as simple as possible, but no simpler.
 - Don't do things manually that can be automated.
 - Follow Separation of Concerns (SoC) - separate code into logical modules.
+- Don't reinvent the wheel - if there's a good package to do what you want to do, use it. If it's missing a feature, consider contributing to it.
 
 ---
 
@@ -59,6 +60,9 @@ Every repository must include a `README.md` file that provides:
 
 ### **Jupyter Notebooks**
 - Render large Jupyter notebooks to HTML and serve them with GitHub Pages.
+
+### **Raster tile/vector services**
+Use ArcGIS Online in preference to a NeCTAR VM
 
 ---
 
