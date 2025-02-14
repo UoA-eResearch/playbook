@@ -30,12 +30,12 @@ Every repository must include a `README.md` file that provides:
 ## **Coding and Development Practices**
 
 ### **Version Control**
-- Follow **Semantic Versioning (semver)** (e.g., `v1.2.3`).
+- As a default, follow **Semantic Versioning (semver)** (e.g., `v1.2.3`). If this is not appropriate, such as for a dataset representing a collection at a given time, use an ISO8601 timestamp (e.g., `2025-02-07` or `2025-01-31T11-18-28Z`).
 - Use **GitHub releases** to tag and document major updates.
 
 ### **Commits**
 - Commit often, ensuring each commit represents a meaningful change (e.g., new feature, bug fix).
-- Write succinct commit messages that clearly describe the change.
+- Write succinct commit messages that clearly describe the change. See https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/ for some examples of good commit messages.
 
 ### **Coding Standards**
 - Use [VS Code](https://code.visualstudio.com/) as the recommended editor.
