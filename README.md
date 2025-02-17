@@ -32,6 +32,7 @@ Every repository must include a `README.md` file that provides:
 ### **Version Control**
 - As a default, follow **Semantic Versioning (semver)** (e.g., `v1.2.3`). If this is not appropriate, such as for a dataset representing a collection at a given time, use an ISO8601 timestamp (e.g., `2025-02-07` or `2025-01-31T11-18-28Z`).
 - Use **GitHub releases** to tag and document major updates.
+- Consider using ```git fetch``` in place of ```git pull``` to minimise merge difficulties
 
 ### **Commits**
 - Commit often, ensuring each commit represents a meaningful change (e.g., new feature, bug fix).
