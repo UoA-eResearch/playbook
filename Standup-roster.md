@@ -9,7 +9,7 @@
     - A demonstration of work that is interesting/challenging
     - A discussion of something that you think would be worth considering from a code practice/special project admin perspective
     - Anything else that you think might be of general interest to the wider team
-- Prepare to lead the stand-up on the Friday
+- Prepare to lead the stand-up on the Friday & take notes.
 
 You can swap around your scheduled week as needed, but please update this document when you do so.
 
