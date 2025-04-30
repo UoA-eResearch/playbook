@@ -19,12 +19,13 @@ You can swap around your scheduled week as needed, but please update this docume
 |---|---|
 | 04/04/25 | Chris |
 | 11/04/25 | Nidhi |
-| 18/04/25 | Noel |
+| 18/04/25 | Good Friday |
 | 25/04/25 | ANZAC Day |
-| 02/05/25 | Nick |
-| 09/05/25 | Kyle |
-| 16/05/25 | Chris |
-| 23/05/25 | Nidhi |
-| 30/05/25 | Noel |
-| 06/06/25 | Nick |
-| 13/06/25 | Kyle |
+| 02/05/25 |  Noel |
+| 09/05/25 |  Nick |
+| 16/05/25 |  Kyle |
+| 23/05/25 | Chris |
+| 30/05/25 | Nidhi |
+| 06/06/25 | Noel  |
+| 13/06/25 |  Nick |
+| 20/06/25 |  Kyle |
