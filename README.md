@@ -40,7 +40,7 @@ Every repository must include a `README.md` file that provides:
 
 ### **Coding Standards**
 - Use [VS Code](https://code.visualstudio.com/) as the recommended editor.
-  - Leverage the **GitHub Copilot** extension for AI-assisted coding.
+  - Leverage the **GitHub Copilot** extension for AI-assisted coding, once internal data has been moved into an environment file and the file has been removed from **Copilot** access.
   - Use the **Remote-SSH** extension for working on remote VMs, such as NeCTAR VMs.
 - Use [Black](https://black.readthedocs.io/) for Python code formatting.
 - JavaScript code should follow modern ES6+ standards.
