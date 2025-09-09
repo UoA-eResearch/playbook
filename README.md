@@ -25,6 +25,13 @@ Every repository must include a `README.md` file that provides:
 - Use a `requirements.txt` file to list all Python dependencies. Use `uv` to install them.
 - For JavaScript projects, use `package.json`.
 
+### **Handling Secrets and Sensitive Data**
+- **Never commit secrets to public repositories**: API keys, passwords, database credentials, and other sensitive data should never be committed to version control.
+- **Use environment files**: Store sensitive configuration in `.env` files and add them to `.gitignore` from the start.
+- **Provide example files**: Include `.env.example` or similar template files showing the required structure without actual values.
+- **Consider this from day one**: Even if you delete secrets later, they remain accessible in git history. Start with proper secret management practices immediately.
+- **Use platform-specific secret management**: For deployed applications, use secure secret management services provided by your hosting platform.
+
 ---
 
 ## **Coding and Development Practices**
@@ -40,7 +47,7 @@ Every repository must include a `README.md` file that provides:
 
 ### **Coding Standards**
 - Use [VS Code](https://code.visualstudio.com/) as the recommended editor.
-  - Leverage the **GitHub Copilot** extension for AI-assisted coding, once internal data has been moved into an environment file and the file has been removed from **Copilot** access.
+  - Leverage the **GitHub Copilot** extension for AI-assisted coding (see the "Handling Secrets and Sensitive Data" section above for proper secret management).
   - Use the **Remote-SSH** extension for working on remote VMs, such as NeCTAR VMs.
 - Use [Black](https://black.readthedocs.io/) for Python code formatting.
 - JavaScript code should follow modern ES6+ standards.
@@ -78,6 +85,8 @@ Use ArcGIS Online in preference to a NeCTAR VM
 project/
 ├── README.md          # Project description and usage instructions
 ├── requirements.txt   # Python dependencies
+├── .env.example       # Template for environment variables
+├── .gitignore         # Include .env and other sensitive files
 ├── data/              # Example data (use Git LFS for large files)
 ├── src/               # Source code
 │   ├── main.py        # Main script
